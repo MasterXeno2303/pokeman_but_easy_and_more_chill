@@ -1,4 +1,4 @@
-def combat(playerType):
+def typeSelect(playerType):
     if playerType == "Fire":
         playerWeakness = ["Water", "Rock", "Fire"]
         playerStrength = ["Grass"]
@@ -58,5 +58,9 @@ def playerTurn():
             break
         else:
             print('Please enter a valid option.')
+
+def enemyTurn():
+    while True:
+        move = 
     
   
